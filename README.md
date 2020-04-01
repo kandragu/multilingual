@@ -29,18 +29,18 @@
 
 ## Alternative approaches
 
-##1. Re-String
+## 1. Re-String
 
 - Replacing bundled String dynamically
 - Open source implementation [link](https://github.com/hamidness/restring)
 - Above library in Java did not work with latest version of Android/Kotlin.
 
-##2. Building your own String resource repository
+## 2. Building your own String resource repository
 
 - Only possible for big Android team to build and maintain with backword compability.
 - Discussion on this can be found [here](https://www.reddit.com/r/androiddev/comments/740tju/pros_and_cons_of_dynamic_fetch_of_localized/)
 
-##3. Using React Native
+## 3. Using React Native
 
 - Localization JSON file can be sent from server
 - RN [Codepush](https://www.npmjs.com/package/react-native-code-push) can solve this.
